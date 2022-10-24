@@ -1,0 +1,62 @@
+.RightbarContainer {
+    flex: 4;
+    padding: 10px;
+}
+
+.birthdayContainer {
+    display: flex;
+}
+
+.birthdayImg {
+    width: 35px;
+    height: 35px;
+}
+
+.rightbarAd {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 15px;
+}
+
+.rightbarTitle {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.rightbarFriendList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.rightbarFollowings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rightbarFollowing {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.rightbarFollowingImg {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.followButton{
+    background-color: #1877F2;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 8px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
