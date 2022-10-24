@@ -9,7 +9,7 @@ import { AuthContext } from "./context/AuthContext.js";
 function App() {
   const { user } = useContext(AuthContext);
   return (
-    <HashRouter>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route exact path="/" element={user ? <Home /> : <Login />}/>
         <Route path="/login" element={user ? <Navigate to='/home'/> : <Login />} />
