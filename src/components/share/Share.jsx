@@ -30,13 +30,13 @@ export default function Share() {
             data.append("file", file)
             post.img = "assets/" + fileName; //add the name to the json that will be send to the mongodb
             try {
-                await axios.post("http://localhost:8800/" + "api/upload", data)
+                await axios.post(SF + "api/upload", data)
             } catch (err) { console.log(err) }
         }
 
 
         try {
-            await axios.post("http://localhost:8800/" + "api/posts", post)
+            await axios.post(SF + "api/posts", post)
             window.location.reload();
         } catch (err) { console.log(err) }
     }
