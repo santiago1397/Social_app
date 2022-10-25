@@ -9,14 +9,14 @@ import { AuthContext } from "./context/AuthContext.js";
 function App() {
   const { user } = useContext(AuthContext);
   return (
-    <BrowserRouter >
+    <HashRouter >
       <Routes>
-        <Route exact path="/Social_app" element={user ? <Home /> : <Login />}/>
+        <Route exact path="/" element={user ? <Home /> : <Login />}/>
         <Route path="/login" element={user ? <Navigate to='/home'/> : <Login />} />
         <Route path="/register" element={user ? <Navigate to="/login" /> : <Register />} />
         <Route path="/profile/:username" element={<Profile />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
