@@ -13,8 +13,8 @@ export default function Timeline({ username }) {
   useEffect(() => {
     const fetchPost = async () => {
       const res = username
-        ? await axios.get("http://localhost:8800/" + `api/posts/profile/${username}`)
-        : await axios.get("http://localhost:8800/" + `api/posts/timeline/${user._id}`);
+        ? await axios.get(SF + `api/posts/profile/${username}`)
+        : await axios.get(SF + `api/posts/timeline/${user._id}`);
         
       setPosts(
         res.data.sort((p1, p2) => {
