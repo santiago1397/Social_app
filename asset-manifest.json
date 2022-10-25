@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/santiago1397.github.io/Social_app/static/css/main.82987d64.css",
-    "main.js": "/santiago1397.github.io/Social_app/static/js/main.ddc8cf70.js",
-    "index.html": "/santiago1397.github.io/Social_app/index.html",
-    "main.82987d64.css.map": "/santiago1397.github.io/Social_app/static/css/main.82987d64.css.map",
-    "main.ddc8cf70.js.map": "/santiago1397.github.io/Social_app/static/js/main.ddc8cf70.js.map"
+    "main.css": "/Social_app/static/css/main.82987d64.css",
+    "main.js": "/Social_app/static/js/main.ddc8cf70.js",
+    "index.html": "/Social_app/index.html",
+    "main.82987d64.css.map": "/Social_app/static/css/main.82987d64.css.map",
+    "main.ddc8cf70.js.map": "/Social_app/static/js/main.ddc8cf70.js.map"
   },
   "entrypoints": [
     "static/css/main.82987d64.css",
